@@ -1,0 +1,17 @@
+
+Changes to the HA-Frontend:
+
+This is a SVG icon which is being used in the system in a lot of places , what I did is I cconverted the png to svg and then copied the svg code and put inside the ha-logo-svg.ts file, "ts" file stands for some object which is being used in the frontend of HA
+PATH:src\components\ha-logo-svg.ts
+
+I have cleared all the data inside the about in HA-FrontEnd untill we create our own version of it
+PATH: "src\panels\config\info\ha-config-info.ts" 
+
+I have changed all the icons and images inside the icon folder and convert its sizes to the size needed to be done 
+PATH: public\static\icons
+
+The panel Menu is placed in :src/panels/config/
+
+
+ 
+I have replaced all the colors with this hex code  #03A9F4 which is the defualt HA color to  #FF9900
