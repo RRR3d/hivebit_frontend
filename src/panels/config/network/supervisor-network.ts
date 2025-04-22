@@ -755,7 +755,7 @@ export class HassioNetwork extends LitElement {
       css`
         mwc-tab-bar {
           border-bottom: 1px solid
-            var(--mdc-dialog-scroll-divider-color, rgba(0, 0, 0, 0.12));
+            var(--mdc-dialog-scroll-divider-color, #1c1c1c);
           margin-bottom: 24px;
         }
 

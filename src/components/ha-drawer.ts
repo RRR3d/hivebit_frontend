@@ -87,7 +87,7 @@ export class HaDrawer extends DrawerBase {
       .mdc-drawer {
         position: fixed;
         top: 0;
-        border-color: var(--divider-color, rgba(0, 0, 0, 0.12));
+        border-color: var(--divider-color, #1c1c1c);
         inset-inline-start: 0 !important;
         inset-inline-end: initial !important;
       }

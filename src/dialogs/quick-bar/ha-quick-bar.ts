@@ -908,7 +908,7 @@ export class QuickBar extends LitElement {
 
         .command-category {
           --ha-label-icon-color: #585858;
-          --ha-label-text-color: #212121;
+          --ha-label-text-color: #b5a38b;
         }
 
         .command-category.reload {

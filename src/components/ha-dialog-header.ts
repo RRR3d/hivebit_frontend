@@ -35,7 +35,7 @@ export class HaDialogHeader extends LitElement {
         }
         :host([show-border]) {
           border-bottom: 1px solid
-            var(--mdc-dialog-scroll-divider-color, rgba(0, 0, 0, 0.12));
+            var(--mdc-dialog-scroll-divider-color, #1c1c1c);
         }
         .header-bar {
           display: flex;

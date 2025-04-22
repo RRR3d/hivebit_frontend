@@ -1740,7 +1740,7 @@ class HaConfigIntegrationPage extends SubscribeMixin(LitElement) {
           color: gold;
         }
         ha-svg-icon.platinum-quality {
-          color: #727272;
+          color: #c1c1c1;
         }
         ha-svg-icon.internal-quality {
           color: var(--primary-color);

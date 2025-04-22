@@ -136,11 +136,11 @@ export class HaAuthorize extends litLocalizeLiteMixin(LitElement) {
           overflow: hidden;
           --ha-select-height: 40px;
           --mdc-select-fill-color: none;
-          --mdc-select-label-ink-color: var(--primary-text-color, #212121);
-          --mdc-select-ink-color: var(--primary-text-color, #212121);
+          --mdc-select-label-ink-color: var(--primary-text-color, #b5a38b);
+          --mdc-select-ink-color: var(--primary-text-color, #b5a38b);
           --mdc-select-idle-line-color: transparent;
           --mdc-select-hover-line-color: transparent;
-          --mdc-select-dropdown-icon-color: var(--primary-text-color, #212121);
+          --mdc-select-dropdown-icon-color: var(--primary-text-color, #b5a38b);
           --mdc-shape-small: 0;
         }
         .footer a {

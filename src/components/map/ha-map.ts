@@ -626,7 +626,7 @@ export class HaMap extends ReactiveElement {
         saturate(0.3);
     }
     #map.forced-light {
-      background: #ffffff;
+      background: #333333;
       color: #000000;
       --map-filter: invert(0);
     }

@@ -1,8 +1,8 @@
 import { css, unsafeCSS } from "lit";
 import { fontStyles } from "./roboto";
 import {
-  DEFAULT_ACCENT_COLOR,
-  DEFAULT_PRIMARY_COLOR,
+  DEFAULT_ACCENT_COLOR, // #ff9800 to #FFA500
+  DEFAULT_PRIMARY_COLOR, // #03a9f4 to #E8D1B3
   derivedStyles,
 } from "./styles-data";
 
@@ -15,48 +15,49 @@ const mainStyles = css`
     height: 100vh;
 
     /* text */
-    --primary-text-color: #212121;
-    --secondary-text-color: #727272;
+    --primary-text-color: #b5a38b; //#212121
+    --secondary-text-color: #c1c1c1; //#727272
     --text-primary-color: #ffffff;
-    --text-light-primary-color: #212121;
+    --text-light-primary-color: #b5a38b;
     --disabled-text-color: #bdbdbd;
 
     /* main interface colors */
     --primary-color: ${unsafeCSS(DEFAULT_PRIMARY_COLOR)};
     --dark-primary-color: #0288d1;
-    --light-primary-color: #b3e5fc;
+    --light-primary-color: #000000; //#b3e5fc
     --accent-color: ${unsafeCSS(DEFAULT_ACCENT_COLOR)};
-    --divider-color: rgba(0, 0, 0, 0.12);
+    --divider-color: #1c1c1c; //rgba(0, 0, 0, 0.12)
     --outline-color: rgba(0, 0, 0, 0.12);
     --outline-hover-color: rgba(0, 0, 0, 0.24);
 
     --scrollbar-thumb-color: rgb(194, 194, 194);
 
-    --error-color: #db4437;
-    --warning-color: #ffa600;
-    --success-color: #43a047;
+    --error-color: #e74c3c; //#db4437
+    --warning-color: #f39c12; //#ffa600
+    --success-color: #27ae60; //#43a047
     --info-color: #039be5;
 
     /* backgrounds */
-    --card-background-color: #ffffff;
-    --primary-background-color: #fafafa;
-    --secondary-background-color: #e5e5e5; /* behind the cards on state */
+    --card-background-color: #333333; //#ffffff
+    --primary-background-color: #000000; //#fafafa
+    --secondary-background-color: #000000; /* #e5e5e5 ,behind the cards on state */
     --clear-background-color: #ffffff;
 
     /* for header */
     --header-height: 56px;
 
     /* for label-badge */
-    --label-badge-red: var(--error-color);
+    --label-badge-red: rgba(255, 149, 9, 0.7); //var(--error-color)
     --label-badge-blue: var(--info-color);
     --label-badge-green: var(--success-color);
     --label-badge-yellow: var(--warning-color);
     --label-badge-grey: #9e9e9e;
 
     /* states icon */
-    --state-icon-color: #44739e;
+    --state-icon-color: #007bff; //#44739e
     /* an error state is anything that would be considered an error */
     /* --state-icon-error-color: #db4437; derived from error-color */
+    /* --paper-item-icon-color: #e0e0e0;//#44739e
 
     /* energy */
     --energy-grid-consumption-color: #488fc2;

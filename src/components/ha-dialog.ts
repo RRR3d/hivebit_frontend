@@ -67,8 +67,7 @@ export class HaDialog extends DialogBase {
     styles,
     css`
       :host([scrolled]) ::slotted(ha-dialog-header) {
-        border-bottom: 1px solid
-          var(--mdc-dialog-scroll-divider-color, rgba(0, 0, 0, 0.12));
+        border-bottom: 1px solid var(--mdc-dialog-scroll-divider-color, #1c1c1c);
       }
       .mdc-dialog {
         --mdc-dialog-scroll-divider-color: var(

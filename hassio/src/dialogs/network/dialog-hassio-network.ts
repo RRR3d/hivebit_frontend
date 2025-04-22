@@ -562,7 +562,7 @@ export class DialogHassioNetwork
 
         mwc-tab-bar {
           border-bottom: 1px solid
-            var(--mdc-dialog-scroll-divider-color, rgba(0, 0, 0, 0.12));
+            var(--mdc-dialog-scroll-divider-color, #1c1c1c);
         }
 
         ha-dialog {
@@ -611,8 +611,7 @@ export class DialogHassioNetwork
           bottom: 0;
           width: 100%;
           box-sizing: border-box;
-          border-top: 1px solid
-            var(--mdc-dialog-scroll-divider-color, rgba(0, 0, 0, 0.12));
+          border-top: 1px solid var(--mdc-dialog-scroll-divider-color, #1c1c1c);
           display: flex;
           justify-content: space-between;
           padding: 8px;

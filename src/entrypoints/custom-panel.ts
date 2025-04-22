@@ -46,7 +46,7 @@ function initialize(
   body {
     margin:0;
     background-color: var(--primary-background-color, #fafafa);
-    color: var(--primary-text-color, #212121);
+    color: var(--primary-text-color, #B5A38B);
   }
   @media (prefers-color-scheme: dark) {
     body {

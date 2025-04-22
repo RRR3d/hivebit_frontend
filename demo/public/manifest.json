@@ -1,5 +1,5 @@
 {
-  "background_color": "#FFFFFF",
+  "background_color": "#333333",
   "description": "Home automation platform that puts local control and privacy first.",
   "dir": "ltr",
   "display": "standalone",
@@ -75,5 +75,5 @@
   "name": "Home Assistant Demo",
   "short_name": "HA Demo",
   "start_url": "/?homescreen=1",
-  "theme_color": "#03A9F4"
+  "theme_color": "#E8D1B3"
 }
