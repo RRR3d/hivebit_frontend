@@ -1,4 +1,4 @@
-# Home Assistant Frontend
+# HVIEBIT FRONTEND
 
 This is the repository for the official [Home Assistant](https://home-assistant.io) frontend.
 
