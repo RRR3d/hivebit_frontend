@@ -32,7 +32,7 @@ export const darkStyles = {
   "input-disabled-ink-color": "rgba(255, 255, 255, 0.37)",
   "input-dropdown-icon-color": "rgba(255, 255, 255, 0.54)",
 
-  "codemirror-keyword": "#C792EA",
+  "codemirror-keyword": "#C792EA", 
   "codemirror-operator": "#89DDFF",
   "codemirror-variable": "#f07178",
   "codemirror-variable-2": "#EEFFFF",

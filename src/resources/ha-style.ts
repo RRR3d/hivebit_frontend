@@ -41,7 +41,7 @@ const mainStyles = css`
     --card-background-color: #333333; //#ffffff
     --primary-background-color: #000000; //#fafafa
     --secondary-background-color: #000000; /* #e5e5e5 ,behind the cards on state */
-    --clear-background-color: #ffffff;
+    --clear-background-color: #000000;
 
     /* for header */
     --header-height: 56px;
